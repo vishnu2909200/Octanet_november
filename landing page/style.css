@@ -1,0 +1,146 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmVzb3J0fGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 230px 0;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #326dc5;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #326dc5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3c92c4;
+}
+
+.destination-section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.destinations-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination {
+    width: calc(50% - 20px);
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.destination img {
+    max-width: 55%;
+    height: auto;
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+h3:hover {
+    color: #ff5e62;
+}
+
+.contact-section {
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.about-content {
+    margin-top: -65px; 
+}
+.about-description {
+    margin-top: -20px; 
+}
+.header-text {
+    color: #fff;
+    top: -200px;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.about-content p {
+    top: -16px; 
+    font-size: 20px;
+    margin-left: 200px;
+    position: relative;
+
+}
+.about-heading {
+    margin-top: 50px; 
+    margin-left: 590px;
+}
